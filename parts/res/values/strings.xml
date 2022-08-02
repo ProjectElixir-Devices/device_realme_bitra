@@ -75,6 +75,9 @@
     <string name="vibration_strength_low">Low</string>
     <string name="vibration_strength_medium">Medium</string>
     <string name="vibration_strength_high">High (default)</string>
+    <!-- Raise to wake strings-->
+    <string name="raise_to_wake_gesture_title">Raise to wake</string>
+    <string name="raise_to_wake_gesture_summary">Wake up the device instead of pulsing notification</string>
 	
     <!-- Unsupported -->
     <string name="unsupported">Unsupported</string>

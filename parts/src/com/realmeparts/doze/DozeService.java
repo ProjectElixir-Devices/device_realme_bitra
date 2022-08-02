@@ -82,6 +82,9 @@ public class DozeService extends Service {
                 DozeUtils.isPocketGestureEnabled(this)) {
             mProximitySensor.disable();
         }
+        if (DozeUtils.isRaiseToWakeEnabled(this)) {
+            mTiltSensor.disable();
+        }
     }
 
     private void onDisplayOff() {
@@ -92,6 +95,9 @@ public class DozeService extends Service {
         if (DozeUtils.isHandwaveGestureEnabled(this) ||
                 DozeUtils.isPocketGestureEnabled(this)) {
             mProximitySensor.enable();
+        }
+        if (DozeUtils.isRaiseToWakeEnabled(this)) {
+            mTiltSensor.enable();
         }
     }
 }
