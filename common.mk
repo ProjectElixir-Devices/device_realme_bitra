@@ -366,6 +366,11 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# RealmeParts
+PRODUCT_PACKAGES += \
+    RealmeParts \
+    parts.rc
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
